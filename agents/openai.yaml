@@ -1,0 +1,4 @@
+interface:
+  display_name: "The Playtester"
+  short_description: "Manage game playtests and polls on theplaytest.io"
+  default_prompt: "Use $theplaytester to get my game playtested on theplaytest.io and report the results."
