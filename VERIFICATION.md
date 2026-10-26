@@ -33,3 +33,9 @@ The following were checked against the skill's routing and helper behavior; this
 No new live listing was funded, no real tester hired, no public poll or vote posted, and no private account token was obtained. Those actions depend on the installer's own authorized account, site availability, budget and host controls. Browser support and scheduling differ between agents. Firstplay's internal website API is not a versioned public integration promise.
 
 The CI workflow runs offline checks on Python 3.10 and 3.13 with read-only repository permissions. Its actual hosted result and public remote installation check are recorded after publication below.
+
+## Publication checks
+
+- Public repository created at https://github.com/brandonhenry/theplaytester and cloned/discovered successfully by the open skills CLI from that remote URL.
+- Hosted CI jobs did not start because GitHub-hosted execution was unavailable for the account. No hosted pass is claimed.
+- A real public remote install succeeded using the open skills CLI in an isolated temporary project, with SKILL.md, all seven references, metadata and Python helper present. No global user skill configuration changed.

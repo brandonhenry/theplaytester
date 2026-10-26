@@ -88,4 +88,4 @@ python3 -m unittest discover -s tests -v
 python3 scripts/firstplay.py --help
 ```
 
-GitHub Actions runs the local tests on Python 3.10 and 3.13. Tests are offline; they do not create production games, users, polls or payments. Report behavior changes or improvements through this public repository, without posting private game builds, submissions or account credentials.
+The CI workflow is configured for Python 3.10 and 3.13; hosted execution was unavailable during publication, so no hosted pass is claimed. Tests are offline; they do not create production games, users, polls or payments. Report behavior changes or improvements through this public repository, without posting private game builds, submissions or account credentials.
